@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab4">
+      <UniqueIdentifier>{61bb2083-f68d-4abe-a6a7-4a53078195c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lab4">
+      <UniqueIdentifier>{c136b84e-df68-4efe-b154-1e1043f6dac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab6">
+      <UniqueIdentifier>{30166147-3474-4f47-9bea-04841f120c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lab6">
+      <UniqueIdentifier>{c8b5ff77-e0f1-40d2-9598-f84470e79e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab5">
+      <UniqueIdentifier>{5b04e80a-7f90-4da7-bff5-a4a5bc6be3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lab5">
+      <UniqueIdentifier>{cd19d34e-7568-45e6-a0f8-69670edaba84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab1_3">
+      <UniqueIdentifier>{56dc6a89-772d-49d9-b722-621b9786660f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lab1_3">
+      <UniqueIdentifier>{76e18a74-e202-49a7-acdf-81a799862e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab7">
+      <UniqueIdentifier>{c396d80a-b38e-4b95-87c7-28deee4fc6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lab7">
+      <UniqueIdentifier>{6628a073-12df-402e-83c3-ae4d3e0c6d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab8">
+      <UniqueIdentifier>{b1a6b737-e829-418b-bfb3-c4ecd0ea0ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lab8">
+      <UniqueIdentifier>{8c5fa295-124f-47dd-93e8-33582f3972aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Исходные файлы\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Исходные файлы\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Исходные файлы\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Исходные файлы\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStack.cpp">
+      <Filter>Исходные файлы\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="Collection.cpp">
+      <Filter>Исходные файлы\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Исходные файлы\Lab1_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Исходные файлы\Lab1_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>Исходные файлы\Lab1_3</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayReader.cpp">
+      <Filter>Исходные файлы\Lab7</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInput.cpp">
+      <Filter>Исходные файлы\Lab8</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHandler.cpp">
+      <Filter>Исходные файлы\Lab8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figure.h">
+      <Filter>Файлы заголовков\Lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Файлы заголовков\Lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Файлы заголовков\Lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Файлы заголовков\Lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStack.h">
+      <Filter>Файлы заголовков\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="Collection.h">
+      <Filter>Файлы заголовков\Lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Файлы заголовков\Lab1_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Файлы заголовков\Lab1_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>Файлы заголовков\Lab1_3</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayReader.h">
+      <Filter>Файлы заголовков\Lab7</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInput.h">
+      <Filter>Файлы заголовков\Lab8</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHandler.h">
+      <Filter>Файлы заголовков\Lab8</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
