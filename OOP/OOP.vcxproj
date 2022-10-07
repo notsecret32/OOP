@@ -137,7 +137,7 @@
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="Square.cpp" />
-    <ClCompile Include="StringHandler.cpp" />
+    <ClCompile Include="StringParser.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="UserInput.cpp" />
   </ItemGroup>
@@ -151,7 +151,7 @@
     <ClInclude Include="Object.h" />
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="Square.h" />
-    <ClInclude Include="StringHandler.h" />
+    <ClInclude Include="StringParser.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="UserInput.h" />
   </ItemGroup>

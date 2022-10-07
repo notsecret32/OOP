@@ -87,7 +87,7 @@
     <ClCompile Include="UserInput.cpp">
       <Filter>Исходные файлы\Lab8</Filter>
     </ClCompile>
-    <ClCompile Include="StringHandler.cpp">
+    <ClCompile Include="StringParser.cpp">
       <Filter>Исходные файлы\Lab8</Filter>
     </ClCompile>
   </ItemGroup>
@@ -125,7 +125,7 @@
     <ClInclude Include="UserInput.h">
       <Filter>Файлы заголовков\Lab8</Filter>
     </ClInclude>
-    <ClInclude Include="StringHandler.h">
+    <ClInclude Include="StringParser.h">
       <Filter>Файлы заголовков\Lab8</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,10 @@
 ﻿#include <iostream>
 using namespace std;
 
+#include <list>
+#include <stack>
+#include <queue>
+
 #include "Object.h"
 #include "Sphere.h"
 #include "Number.h"
@@ -12,7 +16,8 @@ using namespace std;
 #include "MyStack.h"
 #include "ArrayReader.h"
 #include "UserInput.h"
-#include "StringHandler.h"
+#include "StringParser.h"
+#include "MyStack.h"
 
 void Lab1();
 void Lab2();
@@ -222,6 +227,34 @@ void Lab5() {
 
 void Lab6() {
 	system("cls");
+
+	std::list<int> m_list = { 1, 2, 3, 4, 5 };
+
+	std::stack<int> m_stack;
+	m_stack.push(10);
+	m_stack.push(11);
+	m_stack.push(12);
+	m_stack.push(13);
+	m_stack.push(14);
+	m_stack.push(15);
+
+	std::queue<int> m_queue;
+	m_queue.push(20);
+	m_queue.push(21);
+	m_queue.push(22);
+	m_queue.push(23);
+	m_queue.push(24);
+	m_queue.push(25);
+
+	MyStack<int> mystack;
+
+	mystack = MyStack<int>::CreateListFrom(m_list);
+	mystack = MyStack<int>::CreateStackFrom(m_stack);
+	mystack = MyStack<int>::CreateQueueFrom(m_queue);
+	
+	mystack.PrintList();
+	mystack.PrintStack();
+	mystack.PrintQueue();
 
 	system("pause");
 }
