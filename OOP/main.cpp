@@ -5,28 +5,26 @@ using namespace std;
 #include <stack>
 #include <queue>
 
-#include "Object.h"
-#include "Sphere.h"
-#include "Number.h"
-#include "Figure.h"
-#include "Square.h"
-#include "Circle.h"
-#include "Triangle.h"
-#include "Collection.h"
-#include "MyStack.h"
-#include "ArrayReader.h"
-#include "UserInput.h"
-#include "StringParser.h"
-#include "MyStack.h"
+#include "Lab1_3/Object.h"
+#include "Lab1_3/Sphere.h"
+#include "Lab1_3/Number.h"
+#include "Lab4/Figure.h"
+#include "Lab4/Square.h"
+#include "Lab4/Circle.h"
+#include "Lab4/Triangle.h"
+#include "Lab5/Collection.h"
+#include "Lab6/MyStack.h"
+#include "Lab7/ArrayReader.h"
+#include "Lab8/UserInput.h"
 
-void Lab1();
-void Lab2();
-void Lab3();
-void Lab4();
-void Lab5();
-void Lab6();
-void Lab7();
-void Lab8();
+void Lab1();	// +
+void Lab2();	// +
+void Lab3();	// +
+void Lab4();	// +
+void Lab5();	// +
+void Lab6();	// +
+void Lab7();	// +
+void Lab8();	// -
 
 int main() {
 	bool isRunning = true;
@@ -101,14 +99,17 @@ void Lab1()
 void Lab2()
 {
 	system("cls");
-	Object obj("Object", "White", 55, 33);
+	//Object obj("Object", "White", 55, 33);
 	Sphere sphere("Sphere", "Green", 5, 55, 25);
-	obj.Output();
-	cout << endl;
-	sphere.Output();
-	sphere.setRadius(999);
-	cout << endl;
-	sphere.Output();
+	//obj.Output();
+	//cout << endl;
+	//sphere.Output();
+	//sphere.setRadius(999);
+	//cout << endl;
+	//sphere.Output();
+
+	Object* obj = &sphere;
+	((Sphere*)obj)->Output();
 	system("pause");
 }
 
@@ -277,9 +278,10 @@ void Lab7() {
 }
 
 void Lab8() {
-	/*UserInput::GetInput("1+2");
-	char* a = UserInput::GetExample();
-	cout << a << endl;*/
-	/*StringHandler::GetFromUserInput(UserInput::getExample());
-	StringHandler::Print();*/
+	system("cls");
+
+	UserInput::Input("5+5");
+	cout << "Result: " << UserInput::Calculate() << endl;
+
+	system("pause");
 }

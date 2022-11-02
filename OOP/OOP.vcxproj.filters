@@ -54,79 +54,73 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Figure.cpp">
-      <Filter>Исходные файлы\Lab4</Filter>
-    </ClCompile>
-    <ClCompile Include="Square.cpp">
-      <Filter>Исходные файлы\Lab4</Filter>
-    </ClCompile>
-    <ClCompile Include="Circle.cpp">
-      <Filter>Исходные файлы\Lab4</Filter>
-    </ClCompile>
-    <ClCompile Include="Triangle.cpp">
-      <Filter>Исходные файлы\Lab4</Filter>
-    </ClCompile>
-    <ClCompile Include="MyStack.cpp">
-      <Filter>Исходные файлы\Lab6</Filter>
-    </ClCompile>
-    <ClCompile Include="Collection.cpp">
-      <Filter>Исходные файлы\Lab5</Filter>
-    </ClCompile>
-    <ClCompile Include="Sphere.cpp">
+    <ClCompile Include="Lab1_3\Sphere.cpp">
       <Filter>Исходные файлы\Lab1_3</Filter>
     </ClCompile>
-    <ClCompile Include="Object.cpp">
+    <ClCompile Include="Lab1_3\Object.cpp">
       <Filter>Исходные файлы\Lab1_3</Filter>
     </ClCompile>
-    <ClCompile Include="Number.cpp">
+    <ClCompile Include="Lab1_3\Number.cpp">
       <Filter>Исходные файлы\Lab1_3</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayReader.cpp">
-      <Filter>Исходные файлы\Lab7</Filter>
+    <ClCompile Include="Lab8\UserInput.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="UserInput.cpp">
-      <Filter>Исходные файлы\Lab8</Filter>
+    <ClCompile Include="Lab4\Circle.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="StringParser.cpp">
-      <Filter>Исходные файлы\Lab8</Filter>
+    <ClCompile Include="Lab4\Figure.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab4\Square.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab4\Triangle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab5\Collection.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab6\MyStack.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab7\ArrayReader.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Figure.h">
-      <Filter>Файлы заголовков\Lab4</Filter>
-    </ClInclude>
-    <ClInclude Include="Square.h">
-      <Filter>Файлы заголовков\Lab4</Filter>
-    </ClInclude>
-    <ClInclude Include="Circle.h">
-      <Filter>Файлы заголовков\Lab4</Filter>
-    </ClInclude>
-    <ClInclude Include="Triangle.h">
-      <Filter>Файлы заголовков\Lab4</Filter>
-    </ClInclude>
-    <ClInclude Include="MyStack.h">
-      <Filter>Файлы заголовков\Lab6</Filter>
-    </ClInclude>
-    <ClInclude Include="Collection.h">
-      <Filter>Файлы заголовков\Lab5</Filter>
-    </ClInclude>
-    <ClInclude Include="Sphere.h">
+    <ClInclude Include="Lab1_3\Sphere.h">
       <Filter>Файлы заголовков\Lab1_3</Filter>
     </ClInclude>
-    <ClInclude Include="Object.h">
+    <ClInclude Include="Lab1_3\Object.h">
       <Filter>Файлы заголовков\Lab1_3</Filter>
     </ClInclude>
-    <ClInclude Include="Number.h">
+    <ClInclude Include="Lab1_3\Number.h">
       <Filter>Файлы заголовков\Lab1_3</Filter>
     </ClInclude>
-    <ClInclude Include="ArrayReader.h">
-      <Filter>Файлы заголовков\Lab7</Filter>
+    <ClInclude Include="Lab4\Circle.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="UserInput.h">
-      <Filter>Файлы заголовков\Lab8</Filter>
+    <ClInclude Include="Lab4\Figure.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="StringParser.h">
-      <Filter>Файлы заголовков\Lab8</Filter>
+    <ClInclude Include="Lab4\Square.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab4\Triangle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab5\Collection.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab6\MyStack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab7\ArrayReader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab8\UserInput.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

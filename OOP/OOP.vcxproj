@@ -127,33 +127,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayReader.cpp" />
-    <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="Collection.cpp" />
-    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Lab4\Circle.cpp" />
+    <ClCompile Include="Lab4\Figure.cpp" />
+    <ClCompile Include="Lab4\Square.cpp" />
+    <ClCompile Include="Lab4\Triangle.cpp" />
+    <ClCompile Include="Lab5\Collection.cpp" />
+    <ClCompile Include="Lab6\MyStack.cpp" />
+    <ClCompile Include="Lab7\ArrayReader.cpp" />
+    <ClCompile Include="Lab8\UserInput.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyStack.cpp" />
-    <ClCompile Include="Number.cpp" />
-    <ClCompile Include="Object.cpp" />
-    <ClCompile Include="Sphere.cpp" />
-    <ClCompile Include="Square.cpp" />
-    <ClCompile Include="StringParser.cpp" />
-    <ClCompile Include="Triangle.cpp" />
-    <ClCompile Include="UserInput.cpp" />
+    <ClCompile Include="Lab1_3\Number.cpp" />
+    <ClCompile Include="Lab1_3\Object.cpp" />
+    <ClCompile Include="Lab1_3\Sphere.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayReader.h" />
-    <ClInclude Include="Circle.h" />
-    <ClInclude Include="Collection.h" />
-    <ClInclude Include="Figure.h" />
-    <ClInclude Include="MyStack.h" />
-    <ClInclude Include="Number.h" />
-    <ClInclude Include="Object.h" />
-    <ClInclude Include="Sphere.h" />
-    <ClInclude Include="Square.h" />
-    <ClInclude Include="StringParser.h" />
-    <ClInclude Include="Triangle.h" />
-    <ClInclude Include="UserInput.h" />
+    <ClInclude Include="Lab1_3\Number.h" />
+    <ClInclude Include="Lab1_3\Object.h" />
+    <ClInclude Include="Lab1_3\Sphere.h" />
+    <ClInclude Include="Lab4\Circle.h" />
+    <ClInclude Include="Lab4\Figure.h" />
+    <ClInclude Include="Lab4\Square.h" />
+    <ClInclude Include="Lab4\Triangle.h" />
+    <ClInclude Include="Lab5\Collection.h" />
+    <ClInclude Include="Lab6\MyStack.h" />
+    <ClInclude Include="Lab7\ArrayReader.h" />
+    <ClInclude Include="Lab8\UserInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
